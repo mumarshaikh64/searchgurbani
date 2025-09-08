@@ -5,7 +5,7 @@ import { useNavigate, useOutletContext } from "react-router";
 //import imgs from './assets/img/content/ggs_01.jpg'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import DGPageByPage from './DGPageByPage';
+import DGPageByPage from './dgPageByPage';
 import { useParams } from 'next/navigation';
 
 
