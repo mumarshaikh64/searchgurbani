@@ -6,7 +6,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 // import DGPageByPage from './dGPageByPage';
-import DGPageByPage from '../../dgPageByPage';
+import DGPageByPage from '../dgPageByPage';
 import { useParams } from 'next/navigation';
 
 
