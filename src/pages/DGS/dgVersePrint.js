@@ -7,10 +7,10 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 // import PagePrintView from '../../components/pagePrint';
 // import { API } from '../../config/api';
-import { API } from '../../../config/api';
-import { ApiHelper } from '../../../helpers/ApiHelper';
-import VersePrintView from '../../../components/VersePrint';
-import Spinner from '../../../components/Spinner';
+import { API } from '../../config/api';
+import { ApiHelper } from '../../helpers/ApiHelper';
+import VersePrintView from '../../components/VersePrint';
+import Spinner from '../../components/Spinner';
 import { useParams } from 'next/navigation';
 
 function DgVersePrint() {
