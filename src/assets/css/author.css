@@ -1,0 +1,343 @@
+
+.col_sl_no {
+    float: left;
+    text-align: center;
+   /* margin-left: 25px;
+    width: 15%;*/
+   
+}
+a.col_sl_no.sec-nos {
+    float: left;
+    text-align: left;
+    left: 40px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 75%;
+    position: relative;
+}
+
+
+a.col_section_no.sec-no.page-no {
+    float: right;
+    text-align: left;
+    /* margin-right: 48px; */
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    position: relative;
+    left: -2%;
+
+}
+span.col_sl_name {
+    left: 40px;
+    position: relative;
+}
+
+a.section-name.sec-nos {
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-left: 0px;
+}
+
+
+.ang-itm {
+     padding: 20px !important;
+}
+
+.section_line {
+    display: block;
+}
+
+span.col_section_no {
+    float: right;
+    /* margin-right: 25px;
+     width: 10%; */
+   
+}
+
+
+span.col_section_name {
+    margin-left: 15px;
+}
+.line {
+    margin: 10px 0;
+    padding: 5px;
+}
+span.col_sl_no.sec-no {
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    /*margin-left: -15px;*/
+}
+.span.col_section_name.sec-name
+{
+    color: rgba(74, 102, 7, 1) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.span.col_section_name.sl-no
+{
+    color: rgba(74, 102, 7, 1) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+}
+.ang-display .sgg {
+    border-radius: 20px;
+    background: #FFF;
+    margin-top: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.ang-display-sgg h1 {
+    background: rgba(74, 102, 7, 1) !important;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 26px;
+ 
+    width: 100%;
+    
+}
+
+h1.inner-heading-athur {
+    color: rgba(77, 11, 14, 1) !important;
+    font-family: "Kaisei Decol";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+a.author-para  {
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.96px;
+   /* padding-left: 22px;*/
+    margin-bottom: 0px !important;
+}
+a.col_section_no.sec-no.page-no.author-no 
+{
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.96px;
+    position: relative;
+    margin-bottom: 0px !important;
+    width: 100%;
+    margin-left: 30px;
+   
+
+}
+.alphabet-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.alphabet-char {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--current-color, var(--color-1));
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+a.col_sl_no.sec-nos.vaar-index {
+    float: left;
+    text-align: left;
+    margin-left: 0px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 100%;
+}
+
+a.col_sl_no.sec-nos.volume-index {
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 100%;
+}
+
+a.col_sl_no.sec-nos.volume-index {
+    float: left;
+    text-align: left;
+    left: 10%;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 100%;
+    position: relative;
+}
+
+a.col_section_no.sec-no.page-no.volume-right-side {
+    float: right;
+    text-align: left;
+    margin-left: 1px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+}
+span.col_sl_no.volume.sec-no {
+    float: left;
+    text-align: center;
+    left: 7%;
+    width: 0%;
+    position: relative;
+}
+
+
+
+.actions-mains.new-accod {
+    float: right;
+}
+
+.accordions {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  /*.active, .accordions:hover {
+    background-color: #ccc; 
+  }*/
+  
+
+
+  .panels {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+  span.col_sl_no.volume.sec-no.sgpsg-vol {
+    float: left;
+    text-align: center;
+    left: 2%;
+    width: 0%;
+    position: relative;
+    margin-left: 0px;
+}
+
+a.col_sl_no.sec-nos.volume-index.sgpsg-vol {
+    float: left;
+    text-align: left;
+    left: 4%;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 100% !important;
+    position: relative !important;
+    display: flex;
+    justify-content: left;
+}
+
+a.col_section_no.sec-no.page-no.volume-right-side.sgpsg-vol {
+    float: right;
+    text-align: left;
+    margin-left: 1px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 30%;
+}
+
+span.col_section_no.vol-eng-head {
+    width: 20%;
+}
+
+
+a.col_sl_no.sec-nos.vaar-index.eng-left-side {
+    /* float: left; */
+    text-align: left;
+    margin-left: 0px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+a.col_sl_no.sec-nos.vaar-index.hindi-right.-side {
+    float: right;
+    justify-content: right;
+    display: flex;
+}
+
+.wrp-itmx {
+    width: 100%;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    span.col_section_no.vol-eng-head {
+    width: 36% !important;
+}
+
+span.col_sl_no.volume.sec-no.sgpsg-vol {
+    float: left;
+    text-align: center;
+    left:-5%;
+    width: 0%;
+    position: relative;
+    /* margin-left: 0px; */
+}
+
+a.col_sl_no.sec-nos.volume-index.sgpsg-vol {
+    float: left;
+    text-align: left;
+    left: -6%;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 92% !important;
+    position: relative !important;
+    display: flex;
+    justify-content: left;
+}
+
+a.col_section_no.sec-no.page-no.volume-right-side.sgpsg-vol {
+    float: right;
+    text-align: left;
+    margin-left: 1px;
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    width: 76% !important;
+}
+
+}

@@ -1,0 +1,17 @@
+.dates strong{
+    color: #7c1012;
+  }
+
+  .dates p{
+    color: #000;
+  }
+
+  .dates a strong:hover{
+    color: #23527c;
+  }
+
+  .dates em strong{
+    color: #000;
+  }
+
+  

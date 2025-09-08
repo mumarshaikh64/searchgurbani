@@ -1,0 +1,37 @@
+.words-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .word-cell {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--current-color-dim, var(--color-1L));
+    color: var(--current-color, var(--color-1));
+    font-size: 1.2em;
+    /* border: 1px solid #e0d0c6; */
+  }
+
+  .sub-head-snp{
+    color: var(--current-color, var(--color-1));
+    font-weight: 500;
+  }
+  
+  .display-text {
+    white-space: pre-wrap;
+    font-family: 'Gurbani Akhar', Arial, sans-serif;
+  }
+  .formatted-text {
+    font-family: 'GurbaniWebThick', serif; /* Use appropriate font-family */
+    font-size: 19px; /* Adjust font size */
+    line-height: 1; /* Adjust line height */
+    font-weight: 500; 
+    }
+    .snp-viwe{
+      margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    
+  }

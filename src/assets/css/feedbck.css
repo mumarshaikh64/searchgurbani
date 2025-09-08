@@ -1,0 +1,29 @@
+input.feed-inputs {
+    border: none !important;
+}
+
+input.feed-inputs ::selection{
+    border: none !important;
+}
+
+.form-control.auto-com-check.feed-text {
+    height: 150px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #C9C5C5 !important;
+    font-size: 15px;
+    color: rgba(96, 98, 97, 1);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.textarea.feed-txt{ border: none !important;
+   }
+textarea {
+    resize: vertical !important;
+    border: none !important;
+    height: 84px;
+    width: 100% !important;
+}

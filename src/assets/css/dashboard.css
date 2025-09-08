@@ -1,0 +1,372 @@
+.banner-section {
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 37.11%, #000 100%); 
+    background-image: url("../img/HomeWallPaper.svg");
+     height: 75vh;*/
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+
+}
+
+.section-outer {
+  background: white;
+  width: 95%;
+  margin: auto;
+}
+
+.outer-div {
+  background: #902602;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 45% !important;
+  margin: auto !important;
+}
+
+.search-r_icon {
+  display: flex;
+  position: relative;
+  top: -7px;
+  width: 100%;
+  left: 10px;
+}
+
+.search_icon {
+  display: flex;
+  position: relative;
+  top: -49px;
+  width: 52%;
+  left: 25px;
+
+}
+
+
+
+input.form-control.border-secondary.py-2.search-r {
+  border: none !important;
+  border-radius: 40px;
+  max-height: 55px;
+  /* width: 263px;*/
+
+}
+
+.input-group-append {
+  max-height: 55px;
+  background: white;
+  border: none !important;
+}
+
+button.btn.btn-outline-secondary.search-divz {
+  max-height: 55px;
+  border: none !important;
+}
+
+.wrap-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-position: center;
+}
+
+.bannr-heading {
+  color: #fff;
+  font-size: 62px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  Line-height: 89.78px;
+}
+
+.drop-list {
+  display: flex;
+}
+
+.drop-list .dropdown {
+  padding: 30px;
+}
+
+
+
+
+
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  padding: 90px 90px;
+}
+
+.col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bg-left {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+}
+
+.bg-right {
+  background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+}
+
+.second-heading {
+  font-size: 30px;
+  line-height: 40.98px;
+  font-weight: 700;
+  font-family: Kaisei Decol;
+  color: #4D0B0E !important;
+}
+
+button.btn.btn-outline-primary.second-bttn {
+  background-color: #902602;
+  color: white;
+  border: 1px solid #902602;
+  border-radius: 30px;
+}
+
+.second-para {
+  font-size: 16px;
+  line-height: 23.92px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #606261 !important;
+  text-align: left;
+  width: 85%;
+}
+
+.third-container.bck-color {
+  background-color: #ebeae7;
+  height: auto;
+}
+
+.third-para {
+  font-size: 18px;
+  line-height: 26.91px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #606261 !important;
+  font-style: italic;
+}
+
+.fouth-para {
+  font-size: 16px;
+  line-height: 23.92px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #4D0B0E !important;
+
+}
+
+.fouth-container {
+  background-color: rgb(253 244 193);
+}
+
+.dropdownmb-4.filters-divs {
+  width: 60% !important;
+}
+
+.input-group.sech-div.ml-2.mb-4 {
+  width: 60% !important;
+}
+
+.input.form-control.border-secondary.py-2.search-r {
+  border: 1px solid rgba(201, 197, 197, 1) !important;
+}
+
+.five-container {
+  background-color: #902602;
+
+}
+
+.five-container-footer {
+  background: var(--current-color, var(--color-1));
+}
+
+input.chk-boxs {
+  margin: 5px 10px 0px 20px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 1.255em !important;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.video-img {
+  width: 30%;
+  padding: 7px;
+}
+
+.video-heading {
+  font-size: 30px;
+  line-height: 43.44px;
+  font-weight: 700;
+  font-family: Kaisei Decol;
+  color: #fff !important;
+}
+
+.play-video-heading {
+  font-size: 19px;
+  line-height: 22.99px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+ul.list-text {
+  color: #606261;
+  font-size: 16px;
+  line-height: 23.92px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.sixth-container {
+  background-image: linear-gradient(rgba(255, 214, 0, 1), rgba(234, 210, 81, 1));
+}
+
+.mob-img {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  left: 25%;
+}
+
+.down-heading {
+  font-size: 50px;
+  line-height: 79.64px;
+  font-weight: 700;
+  font-family: Kaisei Decol;
+  color: #4D0B0E !important;
+}
+
+.parass {
+  font-size: 16px;
+  line-height: 23.92px;
+  font-weight: 700;
+  font-family: Inter;
+  color: #4D0B0E !important;
+}
+
+img.rounded.mx-auto.d-block.center-img.mt-4 {
+
+  width: 25%;
+}
+
+img.rounded.mx-auto.d-block.footer-img.mt-4 {
+
+  width: 15%;
+}
+
+/*button.btn.btn-outline-primary.window-bttn {
+ background-color: #902602; 
+  color: #4D0B0E; 
+  border: 1px solid #902602;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  font-family: Inter;
+}*/
+.add-text {
+  padding: 0px 0px 0px 10px;
+}
+
+.app-img {
+  width: 11%;
+}
+
+button.btn.window-bttn {
+  color: #4D0B0E;
+  border: 1px solid #902602;
+  height: 43px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  font-family: Inter;
+  padding: 9px 0px 10px 0px;
+}
+
+
+button#dropdown-basic {
+  color: #4D0B0E;
+  border: 1px solid #902602;
+  background: white;
+  border-radius: 30px;
+}
+
+.chk-divs {
+  color: #4D0B0E;
+  border: 1px solid #902602;
+  background: white;
+  border-radius: 30px;
+  height: 40px;
+}
+
+.chk-lable {
+  padding: 5px 0px 0px 18px;
+}
+
+.select-dropdown {
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-height:430px) and (max-device-height:579px) {
+  .third-container.bck-color {
+    background-color: #ebeae7;
+    max-height: 100vh;
+  }
+}

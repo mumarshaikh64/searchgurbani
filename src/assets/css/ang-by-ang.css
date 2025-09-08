@@ -1,0 +1,17 @@
+.center-align {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ang-itm.center-align > div {
+    text-align: center;
+}
+.ang-itm.dark-mode {
+    background: #000;
+}
+.ang-itm.dark-mode:nth-child(even) {
+    background: #302c2c;
+}
+/* .ang-itm.dark-mode > div {
+    background: #fff;
+} */

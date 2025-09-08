@@ -1,0 +1,36 @@
+ .akl-intro-kalshar{
+    font-size: 30px !important;
+   
+    font-weight: 700;
+ 
+    color: #4D0B0E !important;
+    /* text-align: center; */
+    margin-bottom: 10px !important;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+
+.px-1.py-1.align-middle.mt-3.akl-intro-kalshar.rewamp_wrap.rewamp-head-centerss h2
+{color: #641214 !important;
+    font-size: 40px !important;
+    text-align: center;}
+
+
+    .px-1.py-1.align-middle.mt-3.akl-intro-kalshar.rewamp_wrap.rewamp-head-centerss h2 .mard-image img{width: 100%;}
+
+
+    
+    /*{color: #000 !important;
+    font-family: "Kaisei Decol" !important;
+    font-size: 25px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+        line-height: normal;}
+
+        b, strong {
+            font-weight: 700;
+        }*/

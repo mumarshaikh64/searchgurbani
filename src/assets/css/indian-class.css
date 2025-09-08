@@ -1,0 +1,41 @@
+.switch input {
+    opacity: 1 !important;
+    width: 0;
+    height: 0;
+}
+
+label.me-2.go-name {
+    margin: 10px 0px 0px 0px;
+}
+.inner-heading-music{color: #333 !important;
+    font-family: "Kaisei Decol";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+    .top-blue
+    {
+    color: #069;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.label:active {
+    display: inline-block;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+    .label {
+        display: inline-block;
+        color: #7c1012;
+        padding: 15px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .label a{color: #337ab7;}

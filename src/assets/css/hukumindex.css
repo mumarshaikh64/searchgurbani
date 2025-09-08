@@ -1,0 +1,69 @@
+ .hukum-scrolls{
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.section_title {
+    background: var(--current-color, var(--color-1)) !important;
+    display: block;
+    font-weight: 700;
+    margin: 0;
+     padding: 5px; 
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26.06px;
+    font-family: Kaisei Decol;
+}
+span.col_section_no, span.col_sl_no {
+    width: 8%;
+  
+}
+
+a.det-para-huku {
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.96px;
+    
+    text-decoration: underline !important;
+    margin-bottom: 0px !important;
+    display: block;
+    /* float: right; */
+    /* min-width: 100%; */
+    /* width: 100%; */
+}
+span.col_section_name.hukum-name{
+   
+    float: left;
+    text-align: center;
+}
+
+span.col_section_no.hukum-indexs {
+    float: right;
+}
+
+.hukum-ang-audio.center-align.mt-4 {
+    text-align: center;
+}
+
+a.det-no.hukum-indx-no.resps-humku {
+    word-break: auto-phrase;
+    padding: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    span.col_section_name.hukum-name {
+        width: 80%;
+        float: left;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    a.det-no.hukum-indx-no.resps-humku {
+        word-break: auto-phrase;
+        padding: 0px;
+    }
+}

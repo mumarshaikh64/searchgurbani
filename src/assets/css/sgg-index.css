@@ -1,0 +1,183 @@
+label.form-check-label.left-para {
+    position: relative;
+    left: -15px;
+    font-size: 17px;
+    line-height: 20.57px;
+    font-weight: 700;
+    font-family: Inter;
+   color: rgba(51, 51, 51, 1) !important;
+}
+
+label.form-check-label.right.para {
+    position: relative;
+    left: -15px;
+    font-size: 17px;
+    line-height: 20.57px;
+    font-weight: 700;
+    font-family: Inter;
+   color: rgba(51, 51, 51, 1) !important;
+}
+
+.switch-sgg input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.form-check-input:checked {
+    background-color: rgba(41, 200, 27, 1) !important;
+    border-color: rgba(41, 200, 27, 1) !important;
+}
+
+.switch-sgg {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    margin-right: 35px;
+}
+
+.ang-display.sgg {
+    border-radius: 20px;
+   
+    background: #FFF;
+    margin-top: 40px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.ang-display.ssg.mt-4 {
+    min-width: 100% !important;
+}
+.ang-display.sgg.mt-4 {
+
+}
+
+.nested-list {
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 991px) {
+    .in-act-wrapper {
+        flex-direction: row;
+    }
+}
+
+details {
+    width: 100%;
+    /*padding: 10px 1rem;*/
+    margin-bottom: 10px;
+  }
+  summary {
+    font-size: 20px;
+  }
+  .ang-display-sgg h1 {
+    background: rgba(74, 102, 7, 1) !important;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 26px;
+ 
+    width: 100%;
+    
+}
+
+.ang-display-sgg h1 {
+    background: rgba(74, 102, 7, 1) !important;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+.ang-display-sgg {
+    border-radius: 20px;
+    border: 11px solid  rgba(74, 102, 7, 1) !important;
+    background: #FFF;
+    margin-top: 40px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+a.det-paras  {
+    color: rgba(74, 102, 7, 1) !important;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.96px;
+    padding-left: 22px;
+    text-decoration: underline !important;
+    margin-bottom: 0px !important;
+    display: block;
+    /* float: right; */
+    min-width: 100%;
+    width: 100%;
+    margin-top: -30px;
+}
+
+a.det-para  {
+    color:var(--current-color, var(--color-1)) !important;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.96px;
+    padding-left: 22px;
+    text-decoration: underline !important;
+    margin-bottom: 0px !important;
+    display: block;
+    /* float: right; */
+    min-width: 85%;
+    width: 100%;
+  
+}
+
+label.form-check-label.right-para {
+    color: #333 !important;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    left: -15px;
+    line-height: 20.57px;
+    position: relative;
+}
+
+.align-div-nesteds
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+
+
+.align-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.det-no 
+{
+    color: var(--current-color, var(--color-1)) !important;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.96px;
+    padding-right: 35px;
+    text-decoration: underline !important;
+    margin-bottom: 0px !important;
+}
+summary {
+    display: list-item;
+    cursor: pointer;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    line-height: 20.96px !important;
+    font-family: Kaisei 'Kaisei Decol' !important;
+}
+.ang-itm.sgg {
+    padding: 6px !important;
+}
+
+.ang-itm.sgg h2 {
+    color: #333333 !important;
+    font-family: "Anek Gurmukhi";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-left: 40px !important;
+}

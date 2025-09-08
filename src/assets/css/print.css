@@ -1,0 +1,79 @@
+.print-sizes {
+    font-family: AnmolUniBani !important;
+    font-size: 18px !important;
+    color: rgb(51, 51, 51) !important;
+    /* word-break: break-all !important; */
+    width: 100% !important;
+}
+
+
+
+
+h2.lang-1.print-head {
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+h2.lang-2.print-head {
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+h2.lang-3.print-head {
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+h2.lang-4.print-head {
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 12px !important;
+}
+
+h2.lang-5.print-head {
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+h2.lang-6.print-head {
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+
+.main-print {
+    width: 95%;
+    margin: 0 auto;
+    /*background: #fff8e8;*/
+    min-height: 100px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid var(--light-gray-outline, #dfdfdf);
+    border-radius: 10px;
+  margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ang-itms{margin-bottom: 20px;
+}
+
+.ang-itms.prints-view-sahid {
+    margin-bottom: 50px;
+}
+
+.ang-itms .prints-view-sahid{margin-bottom: 50px;
+}
+
+h1.inner-heading-prints {
+    color: #333 !important;
+    font-family: "Kaisei Decol";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}

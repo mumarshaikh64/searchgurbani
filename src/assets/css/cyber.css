@@ -1,0 +1,91 @@
+.top-divz {
+    background-color: #fceaaa !important;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.cyb-head {
+    color: #641214 !important;
+    line-height: 50px
+}
+.sub-cyb{
+    font-weight: 700;
+}
+.cyber-section {
+    background: #ffecec;
+    justify-content: center;
+    text-align: center;
+    /* display: flex; */
+    padding: 20px 2px 20px 2px;
+}
+.head-cyber {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000 !important;
+}
+section.section-shabad.bannerXX.p-5 {
+    background: #fceaaa;
+}
+
+/*p.sub-cyb-hindi {
+    font-size: 18px;
+    text-align: center;
+    word-break: break-all;
+    justify-content: center;
+    display: flex;
+    line-height: 40px !important;
+    margin: 0 auto;
+     font-weight: 400;
+}
+
+p.sub-cyb-eng {
+    font-size: 18px;
+    text-align: center;
+    word-break: break-all;
+    justify-content: center;
+    display: flex;
+    line-height: 40px !important;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #366732;
+}
+
+.sub-cyb-eng-trans{
+    font-size: 18px;
+    word-break:normal;
+    display: flex;
+    line-height: 40px !important;
+    font-weight: 400;
+    color: #880808;
+    justify-content: center;
+    display: flex;
+    /* text-align: left; 
+    padding: 0px 0px 0px 20px;
+   
+}
+
+.sub-cyb-punjab{
+    font-size: 18px;
+    word-break:normal;
+    display: flex;
+    line-height: 40px !important;
+    font-weight: 400;
+    color: #06257b;
+    justify-content: center;
+    display: flex;
+    /* text-align: left; 
+    padding: 0px 0px 0px 20px;
+}*/
+.sub-cyb-eng {
+    padding: 5px;
+}
+.col-lg-12.d-flex-justify-content-end.ang-ang.font-btts {
+    float: right;
+    display: flex;
+    justify-content: end;
+}
+
+section.display .container, section.font .container {
+   
+    margin-top: 20px;
+}

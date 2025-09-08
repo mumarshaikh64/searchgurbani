@@ -1,0 +1,34 @@
+
+button.bhatt-bttn
+{   
+   
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    margin: 0px 15px 15px 10px;
+    background: #652b001f;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+section.section-1.back-color {
+    /*background: #fff8e8;*/
+}
+
+
+.px-1.py-1.align-middle.mt-3.akl-intro-kalshar.rewamp_wrap.rewamp-head-centerss h2
+{color: #641214 !important;
+    font-size: 40px !important;
+    text-align: center;}
+.dates strong{
+    color: #7c1012;
+  }
+
+  .dates p{
+    color: #000;
+  }
+
+  .dates a strong:hover{
+    color: #23527c !important;
+  }

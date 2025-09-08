@@ -1,0 +1,29 @@
+.section-shabad{
+    /*background-color: #fceaaa;*/
+    /* background-color: #fff8e8; */
+    background: var(--current-color-dim, var(--color-1L)) !important;
+    padding: 0.5rem !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-lg-12.d-flex-justify-content-end.ang-ang.akshabad {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    button.ang-btn-enable.akshabad.ang-btn-disable {
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+}

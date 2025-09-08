@@ -1,0 +1,159 @@
+img.nanak-imgs {
+    width: 45%;
+}
+.no-top
+{
+    font-size: 30px !important;
+    line-height: 40.98px;
+    font-weight: 700;
+    font-family: Kaisei Decol;
+    color: #4D0B0E !important;
+    /* text-align: center; */
+    margin-bottom: 20px !important;
+}
+
+.fonts-colors{
+    color: #7c1012;
+    font-size: 13px;
+
+  
+}
+
+img.guru-imgs {
+    width: 35%;
+}
+
+.dates strong{
+    color: #7c1012;
+  }
+
+  .dates p a{
+    color: #7c1012 !important;
+    font-weight: 700;
+  }
+
+  .dates p{
+    color: #000;
+    line-height: 30px;
+  }
+
+  .fonts-colors a:hover{
+    color: #23527c;
+    font-size: 13px;
+}
+  .dates a strong:hover{
+    color: #23527c;
+  }
+  .dates-stro td img {
+    min-width: 320px;
+    width: 100%;
+    padding: 5px 20px 5px 0px;
+    margin: 0px 0px 5px 0px;
+}
+  .dates-stro strong {
+    line-height: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.dates-ram td img {
+    /* min-width: 284px; */
+    width: 40%;
+    padding: 10px 35px 5px 0px;
+    margin: 0px 0px 5px 0px;
+    border: none !important;
+}
+
+.dates-stro .no-top{margin-bottom: 15px !important;}
+.dates-stro p{margin-bottom: 15px !important;}
+/*.guru-ramdas table tr:nth-child(2) td table tr table
+{width: 100%;
+  padding: 10px;
+  border: 0px solid #000 !important;}
+
+.guru-ramdas table tr:nth-child(2) table tr :nth-child(1) td img
+{width: 200px;
+object-fit: cover;
+border: none !important;
+display: flex;}*/
+
+
+/* Target the second cell in each row */
+
+
+/*table tbody tr:nth-child(2) td table:nth-child(1) tr td{
+  border: 2px solid blue;
+}*/
+
+table {
+  border-collapse: collapse;
+width: 100%;
+  
+}
+table img{
+ display: flex;
+width: 30%;
+  
+}
+td {
+  padding: 8px;
+}
+.tablprimary td a {
+  color: #dd761c;
+  /* color: var(--color-1); */
+}
+
+/* Target every even row */
+table tbody tr:nth-child(2) td table tbody tr td table:nth-child(1) tr td  {
+  border-bottom: 2px solid rgb(194, 187, 188);
+  width: 80%;
+}
+
+/* Target the first cell in each row */
+table tbody tr td:nth-child(2)c {
+  border: 2px solid black;
+}
+
+.dates .dates-ram .list-divs table tbody tr td:nth-child(1) {
+width: 50%;
+}
+
+.page-content.right-algn-next {
+  float: right !important;
+  justify-content: end;
+  display: flex;
+}
+.page-content.left-algn-next {
+  float: left;
+}
+.page-content.center-algn-next {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table.nanak-table {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    border: 1px solid;
+}
+
+  ul.first-list {
+    list-style: disc;
+}

@@ -1,0 +1,70 @@
+.dates.list-divs table tr td li:nth-child(1) {
+ /*color: lightgreen;*/
+}
+
+
+.dates.list-divs table {
+    /* padding-left: 19px; */
+    margin-left: 45px;
+}
+
+table {
+    border-collapse: collapse;
+  width: 100%;
+    
+  }
+  table img{
+   display: flex;
+  width: 50%;
+    
+  }
+  td {
+    padding: 8px;
+  }
+  .tablprimary td a {
+    color: #dd761c;
+    /* color: var(--color-1); */
+  }
+  
+  /* Target every even row */
+  table tbody tr:nth-child(2) td table tbody tr td table:nth-child(1) tr td  {
+    border-bottom: 2px solid rgb(194, 187, 188);
+    width: 80%;
+  }
+  
+  /* Target the first cell in each row */
+  table tbody tr td:nth-child(2)c {
+    border: 2px solid black;
+  }
+  
+  .dates .dates-ram .list-divs table tbody tr td:nth-child(1) {
+  width: 50%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  table.nanak-table {
+      width: 50%;
+      margin: 0 auto;
+      text-align: left;
+      display: flex;
+      border: 1px solid;
+  }
+  
+    ul.first-list {
+      list-style: disc;
+  }

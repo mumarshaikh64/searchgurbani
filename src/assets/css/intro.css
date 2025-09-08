@@ -1,0 +1,229 @@
+.intro-address{
+    font-size: 15px;
+    line-height: 24.4px;
+    font-weight: 400;
+    font-family: Kaisei Decol;
+    color:rgba(0, 0, 0, 1) !important;
+    
+  }
+  section.section-1.intro-bg {
+    background: #fff8e8;
+}
+
+.grur-search-bg.common-padding {
+  background: #fff8e8 !important;
+}
+
+
+.container.align-items-center.d-flex.justify-content-center.advance-search.intro-border {
+  background: white;
+  /* border: var(--current-color, var(--color-1)); */
+}
+  
+  .intro-heading{
+    font-size: 30px;
+    line-height: 40.98px;
+    font-weight: 700;
+    font-family: Kaisei Decol;
+    color: rgba(51, 51, 51, 1) !important;
+  }
+  .intro-para
+  {
+    font-size: 16px;
+    line-height: 23.92px;
+    font-weight: 400;
+    font-family: Inter;
+   color: rgba(96, 98, 97, 1) !important;
+   text-align: left;
+   
+  }
+
+.intro-p p{
+  font-size: 16px;
+  line-height: 23.92px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #606261 ;
+  text-align: left;
+}
+p.green.italic {
+  color: #060 !important;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px !important;
+}
+
+p.red.italic {
+  color: #930;
+  font-style: italic;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 18px !important;
+}
+p.bold {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.page-content p {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 14px;
+}
+h3.no-top {
+  color: #641214 !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+p.bold a{color: #7c1012;}
+
+p.bold a:hover{color: #23527c;}
+
+.page-content a {
+  color: #7c1012;
+}
+
+img.float_left_img {
+  width: 42%;
+  height: 230px;
+}
+
+img.float_right_img {
+  width: 31%;
+  height: 230px;
+}
+.page-content a:hover{
+  color: #23527c !important; 
+}
+
+p.green {
+  font-size: 14px;
+  color: #060;
+}
+h4.no-top.fw-normal {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000 !important;
+}
+p.black {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #000;
+  font-weight: 400;
+}
+strong.green {
+  color: #060 !important;
+  /* font-style: italic; */
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+label.bold {
+  font-weight: 700;
+}
+.sg-name{
+  color: var(--current-color, var(--color-1)) !important;
+}
+
+.px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss h2 {
+  color: #641214 !important;
+  font-size: 40px !important;
+  text-align: center;
+}
+
+.Gurmat-Sangeet.sreerag.top-space table tr td table {
+  top: 70px;
+  display: flex;
+  position: relative;
+}
+
+.px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss table tr td table tbody tr:first-child {
+  background: var(--color-common) !important;
+}
+
+.px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss table tr td table:first-child td {
+  border: 0px solid #000 !important;
+  background: white;
+}
+
+
+.hukum-ang-audio.center-align.mt-4 {
+  text-align: center;
+}
+
+
+span.col_section_no.hukum-indexs {
+ /* width: 10%;*/
+  float: right;
+}
+
+a.det-no.hukum-indx-no {
+  color: var(--current-color, var(--color-1)) !important;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28.96px;
+  padding-right: 0px;
+  text-decoration: underline !important;
+  margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  span.col_section_no.hukum-indexs {
+    width: 20% !important;
+    float: right;
+}
+
+a.det-no.hukum-indx-no {
+  color: var(--current-color, var(--color-1)) !important;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28.96px;
+  padding-right: 0px;
+  text-decoration: underline !important;
+  margin-bottom: 0px !important;
+  width: 100%;
+  word-break: keep-all;
+}
+
+  .px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss table {
+    
+              /* margin-left: 0px; */
+              width: 90%;
+  }
+
+
+  .px-1.py-1.align-middle.mt-0.dev-giri.rag-common.second-tbl.rewamp_wrap.rewamp-head-centerss.second-tbl table table tr td {
+    overflow-x: auto;
+    word-break:keep-all;
+}
+  /*.px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss table {
+    width: 45% !important;
+  }
+  .px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss table.berari{
+    width: 45% !important;
+  }*/
+  .px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss.tab-with  
+  {
+    width: 67% !important;
+  }
+
+  .Gurmat-Sangeet.sreerag.top-space table tr td table {
+    top: 45px;
+    display: flex;
+    position: relative;
+}
+.px-1.py-1.align-middle.mt-0.dev-giri.rag-common.rewamp_wrap.rewamp-head-centerss table tr td > table:nth-of-type(3) {
+  width: 365px;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+}
