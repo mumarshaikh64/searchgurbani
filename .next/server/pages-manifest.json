@@ -2,5 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/BNL/ghazals": "pages/BNL/ghazals.js"
+  "/": "pages/index.js",
+  "/GGS": "pages/GGS.js",
+  "/AK": "pages/AK.js",
+  "/BGV": "pages/BGV.js",
+  "/gurbaniSearch": "pages/gurbaniSearch.js",
+  "/KS/kabitByKabit": "pages/KS/kabitByKabit.js",
+  "/DGS": "pages/DGS.js"
 }

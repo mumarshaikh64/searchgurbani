@@ -10,10 +10,35 @@ globalThis.__BUILD_MANIFEST = {
   "rootMainFiles": [],
   "rootMainFilesTree": {},
   "pages": {
-    "/BNL/ghazals": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/BNL/ghazals.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/AK": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/AK.js"
+    ],
+    "/BGV": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/BGV.js"
+    ],
+    "/DGS": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/DGS.js"
+    ],
+    "/GGS": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/GGS.js"
+    ],
+    "/KS/kabitByKabit": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/KS/kabitByKabit.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -24,6 +49,11 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/gurbaniSearch": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/gurbaniSearch.js"
     ]
   },
   "ampFirstPages": []
