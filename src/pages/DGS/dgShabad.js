@@ -5,7 +5,7 @@ import { Link, useLocation, useParams } from "react-router-dom";
 //import imgs from './assets/img/content/ggs_01.jpg'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import '../../assets/css/shabad-line.css'
+// import '../../assets/css/shabad-line.css'
 import { API } from "../../config/api";
 import { ApiHelper } from '../../helpers/ApiHelper';
 import Spinner from '../../components/Spinner';

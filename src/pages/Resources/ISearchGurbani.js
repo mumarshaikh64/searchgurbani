@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from "react-router";
 import { Link, useLocation } from "react-router-dom";
-import '../../assets/css/dashboard.css';
-import '../../assets/css/style.css';
-import '../../assets/css/intro.css';
+// import '../../assets/css/dashboard.css';
+// import '../../assets/css/style.css';
+// import '../../assets/css/intro.css';
 import inerlogo from '../../assets/img/iner-logo-mid.svg';
 import windows from '../../assets/icons/windows.svg';
 import mac from '../../assets/icons/mac.svg';
@@ -32,7 +32,7 @@ function ISearchGurbani() {
         <div>
             <HelmetWrapper
                 title={`iSearchGurbani v4.0 Gurbani Search Software-: searchgurbani.com`}
-                description={`Download iSearchGurbani: A cross Platform software for exploring sikh scriptures and displaying Gurbani text on projectors . Available for PC, Mac, Linux , Android smartphones and tablets and IPhone and Ipad`}
+                description={`Download iSearchGurbani: A cross Platform software for exploring sikh scriptures and displaying Gurbani text on projectors . Available for PC, Mac, Linux , Android smartphones and tablets and iPhone and iPad`}
                 keywords="Mobile Version, Gurbani, Shabad Keertan,  Dasam Granth, Guru Granth, Granth, Bhai Gurdas, Vaaran, Varan, Mahankosh, Kosh, Hukumnama, Baanis, Japji, Jaap, Sukhmani, Ardaas"
                 image="https://www.searchgurbani.com/assets/img/sg-ggs1.png"
                 url={window.location.href}
@@ -108,7 +108,7 @@ function ISearchGurbani() {
                                     <td> <Link to="https://www.backend.searchgurbani.com/downloads/isg4/media/isearchgurbaniv4.dmg" target="_blank" className='dwnld-btn'><i class="bi bi-download"></i>Download</Link> </td>
                                 </tr>
                                 <tr>
-                                    <td><Image src={ubuntu} class="dw-logos me-2" alt="Responsive image" />Ubuntu / Unix  (48 MB)</td>
+                                    <td><Image src={ubuntu} class="dw-logos me-2" alt="Responsive image" />Ubuntu / UNIX  (48 MB)</td>
                                     <td> <Link to="https://www.backend.searchgurbani.com/downloads/isg4/media/isearchgurbaniv4.sh" target="_blank" className='dwnld-btn'><i class="bi bi-download"></i>Download</Link> </td>
                                 </tr>
                                 <tr>
@@ -120,7 +120,7 @@ function ISearchGurbani() {
                                     <td> <Link to="https://www.backend.searchgurbani.com/downloads/isg4/media/isearchgurbaniv4-install.pdf" target="_blank" className='dwnld-btn'><i class="bi bi-download"></i>Download</Link> </td>
                                 </tr>
                                 <tr>
-                                    <td><Image src={appstore} class="dw-logos me-2" alt="Responsive image" />iSearchGurbani for Iphone & Ipad</td>
+                                    <td><Image src={appstore} class="dw-logos me-2" alt="Responsive image" />iSearchGurbani for iPhone & iPad</td>
                                     <td> <Link to="https://apps.apple.com/in/app/isearchgurbani/id6744822993" target="_blank" className='dwnld-btn'><i class="bi bi-download"></i>Download</Link> </td>
                                 </tr>
                                 <tr>

@@ -1,9 +1,9 @@
-// *****Api helper class *******
+// *****API helper class *******
 
 import Axios from 'axios';
 export let ApiHelper = {
 
-    // Api get function
+    // API get function
 'get': async (url, data = {}, tokenNeed = true, config = {}) => {
         let headers = {
             'Content-Type': 'application/json',
@@ -20,7 +20,7 @@ export let ApiHelper = {
         });
     },
 
-    // Api post function
+    // API post function
 'post': async (url, data, tokenNeed = true, config = {}) => {
         let headers = {
             'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ export let ApiHelper = {
     },
 
 
-    // Api put function
+    // API put function
 'put': async (url, data, tokenNeed = true, config = {}) => {
         let headers = {
             'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ export let ApiHelper = {
             handleError(error.response);
         });
     },
-    // Api delete function
+    // API delete function
 'delete': async (url, data = {}, tokenNeed = true, config = {}) => {
         let headers = {
             'Content-Type': 'application/json',

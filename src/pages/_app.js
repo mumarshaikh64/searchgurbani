@@ -33,6 +33,7 @@ import '../assets/css/share.css'
 import '../assets/css/spinner.css'
 import '../assets/css/style.css'
 import '../assets/css/unicodefont.css'
+// import '../styles/globals.css';
 
 function App({ Component, pageProps }) {
   return (

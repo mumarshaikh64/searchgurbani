@@ -1,20 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useOutletContext } from "react-router";
-import { Link, useLocation } from "react-router-dom";
-import '../assets/css/dashboard.css';
-import '../assets/css/intro.css';
-import '../assets/css/unicodefont.css';
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/heading-has-content */
+
 import Axios from 'axios';
-import { API } from "../config/api";
-import { ApiHelper } from '../helpers/ApiHelper';
+import { useEffect, useState } from 'react';
+// import '../assets/css/dashboard.css';
+// import '../assets/css/intro.css';
+// import '../assets/css/unicodefont.css';
 //import imgs from './assets/img/content/ggs_01.jpg'
-import introbannar from '../assets/img/intro-bannar.webp';
-import Spinner from '../components/Spinner';
-import jathaImage from '../assets/img/content/jatha.jpg';
-import tabalaImage from '../assets/img/content/tabla.jpg';
-import raagiImage from '../assets/img/content/raagi.gif';
-import { Helmet } from "react-helmet";
 import HelmetWrapper from '../components/CommonHelmet';
+import Spinner from '../components/Spinner';
 
 function Unicode() {
     const [datas, setDatas] = useState([]);

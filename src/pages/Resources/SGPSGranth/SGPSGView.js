@@ -9,7 +9,7 @@ import { API } from "../../../config/api";
 import { ApiHelper } from '../../../helpers/ApiHelper';
 import Spinner from '../../../components/Spinner';
 import Form from 'react-bootstrap/Form';
-import '../../../assets/css/resource.css';
+// import '../../../assets/css/resource.css';
 import ResourcePage from '../../../components/ResourcePage';
 
 const SGPSGView = (props) => {

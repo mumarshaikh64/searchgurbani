@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, } from "react-router-dom";
 import Spinner from '../../../components/Spinner';
-import '../../../assets/css/dashboard.css';
-import '../../../assets/css/intro.css';
-import '../../../assets/css/ang-by-ang.css';
-import '../../../assets/css/style.css';
-import '../../../assets/css/indian-class.css';
+// import '../../../assets/css/dashboard.css';
+// import '../../../assets/css/intro.css';
+// import '../../../assets/css/ang-by-ang.css';
+// import '../../../assets/css/style.css';
+// import '../../../assets/css/indian-class.css';
 import { ApiHelper } from '../../../helpers/ApiHelper';
 import { API } from '../../../config/api';
 import Axios from 'axios';

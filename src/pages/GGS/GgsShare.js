@@ -5,7 +5,7 @@ import { Link, useLocation, useParams} from "react-router-dom";
 //import imgs from './assets/img/content/ggs_01.jpg'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import AngByAng from './AngByAng';
+import AngByAng from './angByAng';
 
 
 function GgsShare() {

@@ -1,21 +1,13 @@
 //Gurbani search//
-import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate, useOutletContext } from "react-router";
-import { Link, useLocation } from "react-router-dom";
-import '../../../assets/css/dashboard.css';
-import '../../../assets/css/style.css';
+import { useEffect, useRef, useState } from 'react';
+import { useNavigate } from "react-router";
+import { useLocation } from "react-router-dom";
+// import '../../../assets/css/dashboard.css';
+// import '../../../assets/css/style.css';
 import Axios from 'axios';
-import { API } from "../../../config/api";
-import { ApiHelper } from '../../../helpers/ApiHelper';
-import Form from 'react-bootstrap/Form';
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import Table from 'react-bootstrap/Table';
-import VirtualKeyboard from '../../../components/VirtualKeyboard';
-import charMap from '../../../components/GurumukhiAscii';
-import { Color } from 'react-input-color';
-import { Helmet } from 'react-helmet';
 import HelmetWrapper from '../../../components/CommonHelmet';
+import charMap from '../../../components/GurumukhiAscii';
+import { API } from "../../../config/api";
 
 const transliterateToGurumukhi = (input) => {
     return input

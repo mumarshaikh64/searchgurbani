@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/heading-has-content */
+
 "use client";
 import React, { useEffect, useState } from 'react';
 // import { useNavigate, useOutletContext } from "react-router";

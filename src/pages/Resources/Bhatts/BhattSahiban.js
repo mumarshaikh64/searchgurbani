@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router";
-import '../../../assets/css/dashboard.css';
-import '../../../assets/css/intro.css';
+// import '../../../assets/css/dashboard.css';
+// import '../../../assets/css/intro.css';
 import Axios from 'axios';
-import '../../../assets/css/bhatts.css';
+// import '../../../assets/css/bhatts.css';
 import { Link, useLocation } from "react-router-dom";
 //import imgs from './assets/img/content/ggs_01.jpg'
 import introbannar from '../../../assets/img/intro-bannar.webp';

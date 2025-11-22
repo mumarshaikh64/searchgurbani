@@ -1,41 +1,28 @@
-// import '../assets/css/dashboard.css';
-// import '../assets/css/style.css';
-import React, { useEffect, useState } from 'react';
+
+
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/heading-has-content */
+import { useEffect, useState } from 'react';
 // import { useNavigate, useOutletContext } from "react-router";
 import { useRouter } from "next/router";
 // import { Link, useLocation } from "react-router-dom";
-import Link from "next/link";
-import rightimg from '../assets/img/right-img.svg';
-import astore from '../assets/img/apple-store.svg';
-import pstore from '../assets/img/play-store.svg';
-import mobilephn from '../assets/img/mobile.svg';
-import inerlogo from '../assets/img/iner-logo-mid.svg';
-import applelogo from '../assets/img/apple_icon.svg';
-import windowlogo from '../assets/img/windows_icon.svg';
-import hand from '../assets/img/hand.svg';
-import bannarone from '../assets/img/banner/03.jpg';
-import bannartwo from '../assets/img/banner/01.jpg';
-import bannarthree from '../assets/img/banner/05.jpg';
-import bannarfour from '../assets/img/banner/06.jpg';
-import Form from 'react-bootstrap/Form';
 import 'animate.css';
-import Modal from 'react-bootstrap/Modal';
 import Axios from 'axios';
+import Image from 'next/image';
+import Link from "next/link";
+import Carousel from 'react-bootstrap/Carousel';
+import Modal from 'react-bootstrap/Modal';
+import applelogo from '../assets/img/apple_icon.svg';
+import hand from '../assets/img/hand.svg';
+import inerlogo from '../assets/img/iner-logo-mid.svg';
+import mobilephn from '../assets/img/mobile.svg';
+import rightimg from '../assets/img/right-img.svg';
+import windowlogo from '../assets/img/windows_icon.svg';
+import charMap from '../components/GurumukhiAscii';
+import Spinner from '../components/Spinner';
 import { API } from "../config/api";
 import { ApiHelper } from '../helpers/ApiHelper';
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import Table from 'react-bootstrap/Table';
-import charMap from '../components/GurumukhiAscii';
-import VirtualKeyboard from '../components/VirtualKeyboard';
-import Switch from 'react-switch';
-import DataTable from 'react-data-table-component';
 import HomeSearch from './homeSearch';
-import { Helmet } from "react-helmet";
-import Carousel from 'react-bootstrap/Carousel';
-import Spinner from '../components/Spinner';
-import HelmetWrapper from '../components/CommonHelmet';
-import Image from 'next/image';
 const initialFormState = {
     translation: {
         ggs: {

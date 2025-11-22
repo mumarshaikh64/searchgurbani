@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from "react-router";
 import { Link, useLocation } from "react-router-dom";
-import '../../../assets/css/dashboard.css';
-import '../../../assets/css/intro.css';
-import '../../../assets/css/kalshar.css';
-import '../../../assets/css/mardana.css';
+// import '../../../assets/css/dashboard.css';
+// import '../../../assets/css/intro.css';
+// import '../../../assets/css/kalshar.css';
+// import '../../../assets/css/mardana.css';
 import Axios from 'axios';
 import { API } from "../../../config/api";
 import { ApiHelper } from '../../../helpers/ApiHelper';

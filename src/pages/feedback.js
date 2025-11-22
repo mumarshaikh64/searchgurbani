@@ -1,14 +1,10 @@
-import React, { useState } from "react";
 // import { useNavigate, useOutletContext } from "react-router";
 // import { Link, useLocation } from "react-router-dom";
 // import '../assets/css/dashboard.css';
 // import '../assets/css/style.css';
 // import '../assets/css/feedbck.css';
-import searchbannar from '../assets/img/search-bannar.svg';
-import Form from 'react-bootstrap/Form';
-import {Helmet} from "react-helmet";
-import HelmetWrapper from "../components/CommonHelmet";
 import Image from "next/image";
+import searchbannar from '../assets/img/search-bannar.svg';
 
 const Feedback = () => {
    

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from "react-router";
-import '../assets/css/dashboard.css';
-import '../assets/css/style.css';
+// import '../assets/css/dashboard.css';
+// import '../assets/css/style.css';
 import bannar from '../assets/img/HomeWallPaper.svg';
 import 'animate.css';
 import {Helmet} from "react-helmet";

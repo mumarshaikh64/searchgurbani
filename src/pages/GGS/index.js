@@ -1,18 +1,13 @@
 // import '../../assets/css/dashboard.css';
 // import '../../assets/css/intro.css';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 // import { useNavigate, useOutletContext } from "react-router";
 // import { Link, useLocation } from "react-router-dom";
 import Axios from 'axios';
-import { API } from "../../config/api";
-import { ApiHelper } from '../../helpers/ApiHelper';
 //import imgs from './assets/img/content/ggs_01.jpg'
-import introbannar from '../../assets/img/intro-bannar.webp';
 import Spinner from '../../components/Spinner';
 // import ggsImage from '../../assets/img/content/ggs_01.jpg';
 import ggsImage from '../../../public/images/ggs_01.jpg';
-import {Helmet} from "react-helmet";
-import HelmetWrapper from '../../components/CommonHelmet';
 
 function GgsIntroduction() {
     const [introData, setIntroData] = useState([]);

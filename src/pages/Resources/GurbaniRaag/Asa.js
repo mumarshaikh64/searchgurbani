@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from "react-router";
 import { Link, useLocation } from "react-router-dom";
-import '../../../assets/css/dashboard.css';
-import '../../../assets/css/intro.css';
-import '../../../assets/css/nanak.css';
-import '../../../assets/css/guru-amar-das.css';
 import Axios from 'axios';
 import nanak from '../../../assets/img/nanak.jpg';
 import { API } from "../../../config/api";

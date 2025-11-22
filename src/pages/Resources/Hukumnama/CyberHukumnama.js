@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from "react-router";
 import { Link, useLocation } from "react-router-dom";
-import '../../../assets/css/dashboard.css';
-import '../../../assets/css/style.css';
-import '../../../assets/css/cyber.css';
+// import '../../../assets/css/dashboard.css';
+// import '../../../assets/css/style.css';
+// import '../../../assets/css/cyber.css';
 import { API } from "../../../config/api";
 import { ApiHelper } from '../../../helpers/ApiHelper';
 import initialFormState from '../../../components/defalutPref';

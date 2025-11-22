@@ -4,11 +4,11 @@ import { Link, useLocation, useParams } from "react-router-dom";
 /* import '../../../assets/css/dashboard.css';
 import '../../../assets/css/style.css';
 import '../../../assets/css/cyber.css'; */
-import { API } from "../../../config/api";
-import '../../../assets/css/hukumindex.css';
-import { ApiHelper } from '../../../helpers/ApiHelper';
-import FontChange from '../../../components/FontChange';
-import initialFormState from '../../../components/defalutPref';
+import { API } from "../../config/api";
+// import '../../assets/css/hukumindex.css';
+import { ApiHelper } from '../../helpers/ApiHelper';
+import FontChange from '../../components/FontChange';
+import initialFormState from '../../components/defalutPref';
 import {Helmet} from "react-helmet";
 
 

@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from "react-router";
 import { Link, useLocation } from "react-router-dom";
-import '../../assets/css/dashboard.css';
-import '../../assets/css/style.css';
+// import '../../assets/css/dashboard.css';
+// import '../../assets/css/style.css';
 
 import inerlogo from '../../assets/img/iner-logo-mid.svg';
 import windows from '../../assets/icons/windows.svg';

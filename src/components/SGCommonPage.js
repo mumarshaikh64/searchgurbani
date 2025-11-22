@@ -1,30 +1,18 @@
 // import 'react-h5-audio-player/lib/styles.css';
 // import '../assets/css/ang-by-ang.css'
 //Gurbani search//
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 // import { useNavigate, useOutletContext } from "react-router";
 // import { Link, useLocation, useParams } from "react-router-dom";
 //import imgs from './assets/img/content/ggs_01.jpg'
 import AudioPlayer from 'react-h5-audio-player';
+import Spinner from '../components/Spinner';
 import { API } from "../config/api";
 import { ApiHelper } from '../helpers/ApiHelper';
-import Spinner from '../components/Spinner';
-import Form from 'react-bootstrap/Form';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 // import athumb from '../assets/img/audio-thumb.svg';
 import athumb from '../assets/img/audio-thumb.svg';
 import awave from '../assets/img/wave.svg';
-import Switch from 'react-switch';
-import facebook from '../assets/img/facebook.svg';
-import twitter from '../assets/img/twitter.svg';
-import youtube from '../assets/img/youtube.svg';
-import telegram from '../assets/img/telegram.svg';
-import whatsapp from '../assets/img/whatsapp.svg';
-import mail from '../assets/img/mail.svg';
 import FontChange from '../components/FontChange';
-import AngByAng from '../views/GGS/AngByAng';
-import {Helmet} from "react-helmet";
-import HelmetWrapper from './CommonHelmet';
 
 const sgFormState = {  
     showEnglish: false,

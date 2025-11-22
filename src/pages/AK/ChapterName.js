@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useOutletContext } from "react-router";
-import { Link, useLocation, useParams } from "react-router-dom";
-import '../../assets/css/dashboard.css';
-import '../../assets/css/author.css';
-import Axios from 'axios';
+import { useEffect, useState } from 'react';
+import { Link, useParams } from "react-router-dom";
+// import '../../assets/css/dashboard.css';
+// import '../../assets/css/author.css';
+import HelmetWrapper from '../../components/CommonHelmet';
+import Spinner from '../../components/Spinner';
 import { API } from "../../config/api";
 import { ApiHelper } from '../../helpers/ApiHelper';
-import AkIndex from '../../components/AkIndex';
-import Spinner from '../../components/Spinner';
-import {Helmet} from "react-helmet";
-import HelmetWrapper from '../../components/CommonHelmet';
 //import imgs from './assets/img/content/ggs_01.jpg'
 
 function ChapterName() {
